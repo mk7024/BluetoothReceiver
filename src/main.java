@@ -26,7 +26,7 @@ public class main {
             @Override
             public void run() {
                 try {
-                    System.out.println("服务器端开始监听...");
+                    System.out.println("开始监听...");
                     while (true) {
                         mStreamConnection = mStreamConnectionNotifier.acceptAndOpen();
                         System.out.println("接受连接");
